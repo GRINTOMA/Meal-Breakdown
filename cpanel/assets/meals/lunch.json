@@ -1,0 +1,19 @@
+{
+    "lunchFood": [
+        {
+            "name":"Hamburger Meal",
+            "price":"$6.79",
+            "calories":"520"
+        },
+        {
+            "name":"Ramen",
+            "price":"$1.25/pack",
+            "calories":"147/serving"
+        },
+        {
+            "name":"Mac & Cheese",
+            "price":"$15",
+            "calories":"310"
+        }
+    ]
+}

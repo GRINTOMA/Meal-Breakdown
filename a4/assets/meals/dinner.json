@@ -1,0 +1,19 @@
+{
+    "dinnerFood": [
+        {
+            "name":"Steak",
+            "price":"$10.78/steak",
+            "calories":"1222/steak"
+        },
+        {
+            "name":"Potato",
+            "price":"$0.48/potato",
+            "calories":"168/potato"
+        },
+        {
+            "name":"Whole Carrots",
+            "price":"$0.98/lb",
+            "calories":"30/carrot"
+        }
+    ]
+}

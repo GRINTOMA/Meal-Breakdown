@@ -1,0 +1,85 @@
+<div class="content">
+        <mat-tab-group id="menu">
+            <mat-tab label="Breakfast" style="font-weight: bold;">
+                <mat-tab-group>
+                    <mat-tab *ngFor="
+                        let food of breakfast;
+                        let i = index
+                        " [attr.data-index]="i" 
+                        label={{selectBreakfast(i)}} style="font-weight: bold;">
+                        <br>
+                        <table>
+                            <tr>
+                                <td>Food</td>
+                                <td>{{breakfast[i].name}}</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>Cost</td>
+                                <td>{{breakfast[i].price}}</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>Calories</td>
+                                <td>{{breakfast[i].calories}}</td>
+                            </tr>
+                        </table>
+                    </mat-tab>
+                </mat-tab-group>
+            </mat-tab>
+            <mat-tab label="Lunch" style="font-weight: bold;">
+                <mat-tab-group>
+                    <mat-tab *ngFor="
+                        let food of lunch;
+                        let i = index
+                        " [attr.data-index]="i" 
+                        label={{selectLunch(i)}} style="font-weight: bold;">
+                        <br>
+                        <table>
+                            <tr>
+                                <td>Food</td>
+                                <td>{{lunch[i].name}}</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>Cost</td>
+                                <td>{{lunch[i].price}}</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>Calories</td>
+                                <td>{{lunch[i].calories}}</td>
+                            </tr>
+                        </table>
+                    </mat-tab>
+                </mat-tab-group>
+            </mat-tab>
+            <mat-tab label="Dinner" style="font-weight: bold;">
+                <mat-tab-group>
+                    <mat-tab *ngFor="
+                        let food of dinner;
+                        let i = index
+                        " [attr.data-index]="i" 
+                        label={{selectDinner(i)}} style="font-weight: bold;">
+                        <br>
+                        <table>
+                            <tr>
+                                <td>Food</td>
+                                <td>{{dinner[i].name}}</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>Cost</td>
+                                <td>{{dinner[i].price}}</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>Calories</td>
+                                <td>{{dinner[i].calories}}</td>
+                            </tr>
+                        </table>
+                    </mat-tab>
+                </mat-tab-group>
+            </mat-tab>
+        </mat-tab-group>
+</div>

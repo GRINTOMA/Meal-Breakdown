@@ -1,0 +1,19 @@
+{
+    "breakfastFood": [
+        {
+            "name":"Eggs",
+            "price":"$0.22/egg",
+            "calories":"72/egg"
+        },
+        {
+            "name":"Cereal",
+            "price":"$5/box",
+            "calories":"147/serving"
+        },
+        {
+            "name":"Bacon",
+            "price":"$3.24/pack",
+            "calories":"43/slice"
+        }
+    ]
+}
